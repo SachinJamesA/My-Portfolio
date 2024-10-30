@@ -1,10 +1,10 @@
 import React from 'react';
 import Cards from './Cards'
 import Portfolio from '../assets/Portfolio.png'
-import SpicyBites from '../assets/SpicyBites.png'
-import Youtube from '../assets/Youtube.png'
-import Webelite from '../assets/Webelite.png'
-import Supercar from '../assets/Supercar.png'
+// import SpicyBites from '../assets/SpicyBites.png'
+// import Youtube from '../assets/Youtube.png'
+// import Webelite from '../assets/Webelite.png'
+// import Supercar from '../assets/Supercar.png'
 
 const Projects = () => {
 
@@ -16,38 +16,10 @@ const Projects = () => {
       live: "https://rohitsingh93300-portfolio.vercel.app/",
       github: "https://github.com/rohitsingh93300/portfolio"
     },
-    {
-      title: 'Spicy Bites',
-      desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
-      image: SpicyBites,
-      live: "https://spicybites.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YtSpicyBites"
-    },
-    {
-      title: 'YouTube Clone',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: Youtube,
-      live: "https://youtube-clone-93300.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YouTube-clone"
-    },
-    {
-      title: 'Webelite builder',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: Webelite,
-      live: "https://www.webelitebuilders.com/",
-      github: "#"
-    },
-    {
-      title: 'Super Car',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: Supercar,
-      live: "https://supercar123.netlify.app/",
-      github: "https://github.com/rohitsingh93300/supercars"
-    },
   ];
 
   return (
-    <section id="projects" className='relative bg-gray-100  dark:bg-gray-900 py-10 px-4'>
+    <section id="projects" className='relative bg-gray-100  dark:bg-gray-900 py-10 px-4 border-b border-t border-gray-700 border-solid'>
       <div id="projects" className="mb-16 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-black border-b border-red-500 w-max pb-4 dark:text-gray-400">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">           

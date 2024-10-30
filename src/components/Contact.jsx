@@ -29,7 +29,7 @@ const Contact = () => {
       );
   };
   return (
-    <section id="contact" className='z-50 bg-gray-100 relative py-10 px-5 md:px-0 dark:bg-gray-900'>
+    <section id="contact" className='z-50 bg-gray-100 relative py-10 px-5 md:px-0 dark:bg-gray-900 border-b border-gray-700 border-solid'>
       <div className="mb-16 max-w-7xl mx-auto ">
         <div className="flex flex-col md:flex-row justify-between items-center ">
           <div className="md:w-1/2 mb-8 ml-2 md:mb-0 ">

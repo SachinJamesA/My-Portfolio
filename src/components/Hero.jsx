@@ -11,7 +11,7 @@ import tailwind from '../assets/Tailwind Css.png'
 const Hero = () => {
   return (
     <>
-      <section className='relative'>
+      <section className='relative border-b border-gray-700 border-solid'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center lg:h-[90vh] justify-between">
             <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-4 md:px-0 lg:mt-0 mt-10">
