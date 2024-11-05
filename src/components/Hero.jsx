@@ -1,12 +1,9 @@
 import React from 'react'
 import hero from '../assets/Hero.png'
-// import facebook from '../assets/facebook.png'
-// import twitter from '../assets/twitter.png'
-// import instagram from '../assets/instagram.png'
-// import linkedin from '../assets/linkedin.png'
 import reactlogo from '../assets/React.png'
 import Redux from '../assets/Redux.png'
 import tailwind from '../assets/Tailwind Css.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -23,11 +20,11 @@ const Hero = () => {
               <p className="text-base md:text-lg mb-4 text-white">
                 I'm a passionate web developer with expertise in React, Next.js, and modern web technologies. I love creating beautiful and functional websites that solve real-world problems.
               </p>
-              <a href="https://docs.google.com/document/d/1JjksnpuQmqmgMiFbISa0O_1jWO1n_YF4/edit?usp=drive_link&ouid=111431926135040583907&rtpof=true&sd=true" download target='_blank'>
+              <Link to="https://docs.google.com/document/d/1JjksnpuQmqmgMiFbISa0O_1jWO1n_YF4/edit?usp=drive_link&ouid=111431926135040583907&rtpof=true&sd=true" download target='_blank'>
                 <button className='bg-black text-white px-4 py-2 w-max rounded-md'>
                   Download CV
                 </button>
-              </a>
+              </Link>
             </div>
             <div className="md:w-1/2 relative flex justify-center items-end">
               <img
@@ -41,12 +38,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div className='absolute top-32 md:top-40 right-4 md:right-10 hidden md:flex bg-gray-200 p-2 md:p-4 flex-col gap-4 md:gap-6 rounded-full'>
-          <img src={facebook} alt="Facebook" className='w-8 md:w-10 lg:w-12' />
-          <img src={instagram} alt="Instagram" className='w-8 md:w-10 lg:w-12' />
-          <img src={twitter} alt="Twitter" className='w-8 md:w-10 lg:w-12' />
-          <img src={linkedin} alt="LinkedIn" className='w-8 md:w-10 lg:w-12' />
-        </div> */}
       </section>
     </>
   )

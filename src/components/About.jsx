@@ -48,7 +48,7 @@ const About = () => {
                     <div className="mt-12">
                         <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-200">More About Me</h3>
                         <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
-                            Apart from coding, I am passionate about learning new technologies and keeping myself up-to-date with the latest trends in web development. I love to also play sports especially Cricket & Volleyball.
+                            Apart from coding, I am passionate about learning new technologies and keeping myself up-to-date with the latest trends in web development. I also love to play sports especially Cricket & Volleyball.
                         </p>
                     </div>
                 </div>
