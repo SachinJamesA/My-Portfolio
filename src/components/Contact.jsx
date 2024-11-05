@@ -1,8 +1,6 @@
-import { Mail } from 'lucide-react';
 import Lottie from 'lottie-react';
 import contact from '../assets/Contact.json';
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.png';
