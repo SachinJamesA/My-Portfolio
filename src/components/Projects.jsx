@@ -13,6 +13,24 @@ const Projects = () => {
       github: "https://github.com/rohitsingh93300/portfolio"
     },
   ];
+  const projectJson2 = [
+    {
+      title: 'Portfolio',
+      desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were .',
+      image: Portfolio,
+      live: "https://rohitsingh93300-portfolio.vercel.app/",
+      github: "https://github.com/rohitsingh93300/portfolio"
+    },
+  ];
+  const projectJson3 = [
+    {
+      title: 'Portfolio',
+      desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our .',
+      image: Portfolio,
+      live: "https://rohitsingh93300-portfolio.vercel.app/",
+      github: "https://github.com/rohitsingh93300/portfolio"
+    },
+  ];
 
   return (
     <section
@@ -21,19 +39,37 @@ const Projects = () => {
     >
       <div className="mb-16 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-black border-b border-red-500 w-max pb-4 dark:text-gray-400">
-          My Projects
+          My Top Projects
         </h2>
+        <p className='text-xl mb-4 dark:text-gray-400'>In this section these are the projects i built using MERN stack.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
           {projectJson.map((items, index) => (
             <Cards key={index} item={items} />
           ))}
         </div>
-        <div className="mt-8">
-          <Link to="/projects-page">
-            <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-              View More
-            </button>
-          </Link>
+      </div>
+
+      <div className="mb-16 max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-black border-b border-red-500 w-max pb-4 dark:text-gray-400">
+          My Fun Projects
+        </h2>
+        <p className='text-xl mb-4 dark:text-gray-400'>In this section these are the projects i built using many different technologies.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
+          {projectJson2.map((items, index) => (
+            <Cards key={index} item={items} />
+          ))}
+        </div>
+      </div>
+
+      <div className="mb-16 max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-black border-b border-red-500 w-max pb-4 dark:text-gray-400">
+          Guided Projects
+        </h2>
+        <p className='text-xl mb-4 dark:text-gray-400'>In this section these are the projects i built with the help of youtube while i was learning the development.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
+          {projectJson3.map((items, index) => (
+            <Cards key={index} item={items} />
+          ))}
         </div>
       </div>
     </section>

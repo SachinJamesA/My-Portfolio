@@ -6,7 +6,7 @@ import ReactL from '../assets/React.png'
 import Redux from '../assets/Redux.png'
 import Tailwind from '../assets/Tailwind Css.png'
 import Bootstrap from '../assets/Bootstrap.png'
-// import Nodejs from "/src/assets/Nodejs.png";
+import Nodejs from "/src/assets/Nodejs.png";
 import Mongodb from '../assets/mongodb.svg'
 import Express from '../assets/Express.png'
 import MernStack from '../assets/mernstack.png'
@@ -85,10 +85,10 @@ const About = () => {
                                 <img src={Bootstrap} alt="Bootstrap" className="w-8 md:w-10" />
                                 <span className="font-semibold text-purple-700 text-sm md:text-base">Bootstrap</span>
                             </div>
-                            {/* <div className="border border-purple-300 flex items-center gap-2 w-full sm:w-max px-2 md:px-3 py-1 md:py-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
+                            <div className="border border-purple-300 flex items-center gap-2 w-full sm:w-max px-2 md:px-3 py-1 md:py-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
                                 <img src={Nodejs} alt="Node.js" className="w-8 md:w-10" />
                                 <span className="font-semibold text-purple-700 text-sm md:text-base">Node.js</span>
-                            </div> */}
+                            </div>
                             <div className="border border-purple-300 flex items-center gap-2 w-full sm:w-max px-2 md:px-3 py-1 md:py-2 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out">
                                 <img src={Mongodb} alt="MongoDB" className="w-8 md:w-10" />
                                 <span className="font-semibold text-purple-700 text-sm md:text-base">MongoDB</span>

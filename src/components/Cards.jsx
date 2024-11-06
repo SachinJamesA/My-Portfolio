@@ -19,7 +19,6 @@ const Cards = ({item}) => {
                         </button>
                 </div>
             </div>
-
         </div>
     )
 }
