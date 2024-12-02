@@ -15,6 +15,9 @@ import textEditor from '../assets/texteditor.png';
 import passwordGenerator from '../assets/passwordGenerator.png';
 import countdownTimer from '../assets/coutdownTimer.png';
 import quizApp from '../assets/quizApp.png';
+import receipeApp from '../assets/receipeApp.png';
+import simplenotesApp from '../assets/simplenotesApp.png';
+import simpleTodoApp from '../assets/simpleTodoApp.png';
 
 const TopProjects = () => {
   const navigate = useNavigate();
@@ -103,6 +106,27 @@ const TopProjects = () => {
       image: quizApp,
       live: "https://quiz-app-nu-virid-32.vercel.app/",
       github: "https://github.com/SachinJamesA/quizApp"
+    },
+    {
+      title: "Receipe application",
+      desc: "This is the project i built using html, css and javascript from youtube it's a simple Receipe which needs more features for now you can add the meals to your favourite section.",
+      image: receipeApp,
+      live: "https://recipe-app-blue-three.vercel.app/",
+      github: "https://github.com/SachinJamesA/recipe-app"
+    },
+    {
+      title: "Simple notes application",
+      desc: "This is the project i built using html, css and javascript from youtube it's a simple note taking application which uses local storage to store your notes.",
+      image: simplenotesApp,
+      live: "https://simple-notes-app-xi.vercel.app/",
+      github: "https://github.com/SachinJamesA/simple-notes-app"
+    },
+    {
+      title: "Simple todo application",
+      desc: "This is the project i built using html, css and javascript from youtube it's a simple todo  application which uses local storage to store your todos.",
+      image: simpleTodoApp,
+      live: "https://simple-todo-zeta-six.vercel.app/",
+      github: "https://github.com/SachinJamesA/Simple-todo"
     },
   ];
 
