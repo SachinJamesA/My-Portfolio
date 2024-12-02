@@ -16,7 +16,7 @@ import passwordGenerator from '../assets/passwordGenerator.png';
 import countdownTimer from '../assets/coutdownTimer.png';
 import quizApp from '../assets/quizApp.png';
 import receipeApp from '../assets/receipeApp.png';
-import simplenotesApp from '../assets/simplenotesApp.png';
+// import simplenotesApp from '../assets/simplenotesApp.png';
 import simpleTodoApp from '../assets/simpleTodoApp.png';
 
 const TopProjects = () => {
