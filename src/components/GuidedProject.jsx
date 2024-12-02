@@ -114,13 +114,13 @@ const TopProjects = () => {
       live: "https://recipe-app-blue-three.vercel.app/",
       github: "https://github.com/SachinJamesA/recipe-app"
     },
-    {
-      title: "Simple notes application",
-      desc: "This is the project i built using html, css and javascript from youtube it's a simple note taking application which uses local storage to store your notes.",
-      image: simplenotesApp,
-      live: "https://simple-notes-app-xi.vercel.app/",
-      github: "https://github.com/SachinJamesA/simple-notes-app"
-    },
+    // {
+    //   title: "Simple notes application",
+    //   desc: "This is the project i built using html, css and javascript from youtube it's a simple note taking application which uses local storage to store your notes.",
+    //   image: simplenotesApp,
+    //   live: "https://simple-notes-app-xi.vercel.app/",
+    //   github: "https://github.com/SachinJamesA/simple-notes-app"
+    // },
     {
       title: "Simple todo application",
       desc: "This is the project i built using html, css and javascript from youtube it's a simple todo  application which uses local storage to store your todos.",
